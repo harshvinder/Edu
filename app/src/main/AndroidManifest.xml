@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.harsh.edu" >
+    <uses-feature android:name="android.hardware.camera"></uses-feature>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".second"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.harsh.edu.second" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Third"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.harsh.edu.Third" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Fourth"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.harsh.edu.Fourth" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Fifth"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.harsh.edu.Fifth" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
